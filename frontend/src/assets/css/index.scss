@@ -1,0 +1,302 @@
+:root {
+  font-family: 'Jost', sans-serif;
+  line-height: 1.7;
+  color: white;
+  background-color: #0E0E0E;
+  letter-spacing: 1px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+
+  header {
+    background-image: url('/src/assets/images/headerBig.jpg');
+    background-size: cover;
+    background-color: #0E0E0E;
+    min-width: 100%;
+    margin-top: 0;
+    min-height: 90vh;
+  }
+
+  .title-and-slogan {
+    text-align: center;
+    padding: 50px 15px 0px 15px;
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.1;
+      letter-spacing: 9px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      word-break: break-word;
+    }
+
+    p {
+      padding-top: 360px;
+      font-size: 22px;
+      word-break: break-word;
+    }
+  }
+
+  nav {
+    background-color: rgb(211, 56, 56);
+    padding: 10px;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: rgb(0, 0, 0);
+          text-decoration: none;
+          font-weight: 700;
+          font-size: 18px;
+        }
+
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+  }
+
+  .general-info-wrapper {
+    padding: 15px;
+
+    h2, h3 {
+      text-decoration: underline 2px rgb(211, 56, 56);
+    }
+  }
+
+  .h2-happenings {
+    text-decoration: underline 2px rgb(211, 56, 56);
+    padding-left: 15px;
+  }
+
+  .events-wrapper {
+    padding: 15px;
+
+    h3 {
+      text-decoration: underline 2px rgb(211, 56, 56);
+    }
+
+    a {
+      text-decoration: none;
+
+      .event-card {
+        background-color: rgba(211, 56, 56, 0.963);
+        border-radius: 3px;
+        color: black;
+        margin: 20px;
+        padding: 30px 30px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        transition: transform 0.3s ease;
+        transform: scale(1);
+        box-shadow: 0 4px 8px rgb(76, 74, 74);
+
+
+        .event-img {
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+          align-self: center;
+        }
+
+        h3 {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          margin: 0px;
+        }
+
+        p {
+          padding: none;
+          margin: 0px;
+          font-weight: 700;
+          padding-bottom: 10px;
+        }
+
+
+      }
+
+      .event-card:hover {
+        transform: scale(1.05);
+        text-decoration: underline;
+      }
+
+    }
+  }
+
+  .specific-event-wrapper {
+    padding: 15px;
+
+    h2 {
+      padding-top: 10px;
+      text-decoration: underline 2px rgb(211, 56, 56);
+    }
+
+    p {
+      padding: 5px 10px 10px 15px;
+    }
+
+  }
+
+  .form {
+    padding: 15px;
+
+    h2 {
+      text-decoration: underline 2px rgb(211, 56, 56);
+
+    }
+
+    .form-div {
+      line-height: 30px;
+      letter-spacing: 2px;
+
+
+      label {
+        color: white;
+        font-weight: 700;
+      }
+
+      input{
+        border-radius: 5px;
+        padding: 5px;
+        max-width: 100%;
+      }
+
+      select {
+        padding: 5px;
+        border-radius: 5px;
+        max-width: 100%;
+      }
+
+      button {
+        background-color: rgb(211, 56, 56);
+        padding: 10px;
+        border-radius: 5px;
+        min-width: 100px;
+        margin-top: 10px;
+        align-items: center;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      }
+
+      button:hover {
+        opacity: 0.9;
+        transform: translateY(-1px);
+      }
+    }
+
+  }
+
+}
+
+/****************************************************************************/
+@media (min-width: 500px)  {
+  body {
+    .title-and-slogan {
+      text-align: center;
+      padding: 50px 15px 0px 15px;
+
+      h1 {
+        font-size: 42px;
+      }
+
+      p {
+        padding-top: 400px;
+        font-size: 28px;
+      }
+    }
+
+    nav {
+      padding: 10px;
+
+      ul {
+
+        li {
+
+          a {
+            font-size: 22px;
+          }
+        }
+      }
+
+    }
+
+    .general-info-wrapper {
+      padding: 85px;
+    }
+
+    .h2-happenings {
+      padding-left: 85px;
+    }
+
+    .events-wrapper {
+      padding: 85px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        .event-card {
+          width: 400px;
+
+
+          .event-img {
+            height: 120px;
+            width: 120px;
+          }
+        }
+
+      }
+
+    }
+
+    .specific-event-wrapper {
+      padding: 85px;
+    }
+
+    .form {
+      padding: 85px;
+
+      div {
+        .form-div {
+          input{
+            margin-bottom: 20px;
+          }
+  
+          select {
+            margin-bottom: 20px;
+          }
+  
+          button {
+            width: 250px;
+          }
+          
+        }
+
+      }
+
+
+
+    }
+
+  }
+}

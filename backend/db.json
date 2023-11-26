@@ -1,0 +1,169 @@
+{
+  "eventInformation": {
+    "id": 1,
+    "title": "TRÄNINGSMÄSSAN 2024",
+    "slogan": "Upptäck din styrka, hitta din rytm, och forma ditt bästa jag - en unik träningsupplevelse!",
+    "description": "...en omfattande och inspirerande händelse som bjuder in dig att utforska världen av hälsa och träning. Med en mångfald av träningspass, workshops och aktiviteter, är detta en unik möjlighet att lära dig nya träningsmetoder, träffa erfarna instruktörer och upptäcka vad som passar just dig. Oavsett om du är nybörjare eller erfaren atlet, erbjuder vi en rad olika aktiviteter som yoga, styrketräning, dans, löpteknik och mycket mer. Kom och var en del av denna energifyllda festival där du kan prova på, lära dig och låta dig inspireras till att forma din hälsa och välmående!",
+    "location": "Stockholmsmässan",
+    "address": "Adress: Mässvägen 1, 125 30 Älvsjö",
+    "date": "2024-03-15",
+    "time": "Vi erbjuder två olika tider för biljettbokningar till mässan. I bokningen har du möjlighet att välja mellan två tillgängliga tidsintervaller: antingen 09.00 - 12.00 eller mellan 12.00 - 15.00."
+  },
+  "categories": [
+    {
+      "id": 201,
+      "title": "Styrketräning för nybörjare",
+      "time": "09:15 - 10:15",
+      "instructor": "Anna Andersson",
+      "information": "En introduktion till styrketräning för nybörjare, fokus på grundläggande tekniker och övningar.",
+      "img": "https://i.postimg.cc/YCHVHkWQ/pexels-ketut-subiyanto-4853656.jpg"
+    },
+    {
+      "id": 202,
+      "title": "Avancerad styrketräning",
+      "time": "10:00 - 11:00",
+      "instructor": "Erik Svensson",
+      "information": "En avancerad styrketräningsklass för dem som har tidigare erfarenhet. Kräver grundläggande kunskaper.",
+      "img": "https://i.postimg.cc/sgGFVK6R/pexels-ben-pasquel-12652601.jpg"
+
+    },
+    {
+      "id": 203,
+      "title": "HIIT - High Intensity Interval Training",
+      "time": "11:00 - 12:00",
+      "instructor": "Maria Lind",
+      "information": "En intensiv träningsform med korta intervaller och hög intensitet, förbättrar både kondition och styrka.",
+      "img": "https://i.postimg.cc/Kzhn3svh/pexels-kampus-production-6922170.jpg"
+
+    },
+    {
+      "id": 204,
+      "title": "Löpningsteknik och löpteknik",
+      "time": "12:00 - 13:00",
+      "instructor": "Johan Karlsson",
+      "information": "Fokus på förbättring av löpteknik och träningstips för att undvika skador.",
+      "img": "https://i.postimg.cc/gjTfbBZQ/pexels-daniel-reche-3601094.jpg"
+
+    },
+    {
+      "id": 205,
+      "title": "Yoga för flexibilitet",
+      "time": "12:30 - 13:30",
+      "instructor": "Sara Olsson",
+      "information": "Yogaklass som fokuserar på att förbättra flexibiliteten och balansen.",
+      "img": "https://i.postimg.cc/TPjskPYK/pexels-cliff-booth-4056723.jpg"
+
+    },
+    {
+      "id": 206,
+      "title": "Boxningsteknik",
+      "time": "14:00 - 15:00",
+      "instructor": "David Magnusson",
+      "information": "Teknikövningar och träning för att förbättra boxningsteknik och styrka.",
+      "img": "https://i.postimg.cc/XJgNf3CW/pexels-sabel-blanco-1544774.jpg"
+
+    },
+    {
+      "id": 207,
+      "title": "Dans som träning",
+      "time": "14:00 - 15:00",
+      "instructor": "Emma Pettersson",
+      "information": "Dansbaserad träningsklass för att öva på koordinationen och ha kul samtidigt.",
+      "img": "https://i.postimg.cc/PxX8DSRC/pexels-pixabay-270789.jpg"
+
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@example.com",
+      "ticketType": "09.00-12.00"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane@example.com",
+      "ticketType": "12.00-15.00"
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "12.00-15.00",
+      "id": 3
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "12.00-15.00",
+      "id": 4
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "12.00-15.00",
+      "id": 5
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "ticketType": "",
+      "id": 6
+    },
+    {
+      "firstName": "Anna",
+      "lastName": "Andersson",
+      "email": "AnnaAndersson@hotmail.com",
+      "ticketType": "12.00-15.00",
+      "id": 7
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "email": "",
+      "ticketType": "",
+      "id": 8
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "09.00-12.00",
+      "id": 9
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "09.00-12.00",
+      "id": 10
+    },
+    {
+      "firstName": "Sofie",
+      "lastName": "Tiainen",
+      "email": "tiainen77@hotmail.com",
+      "ticketType": "09.00-12.00",
+      "id": 11
+    },
+    {
+      "firstName": "Kalle",
+      "lastName": "Andersson",
+      "email": "Kalle@hotmail.com",
+      "ticketType": "09.00-12.00",
+      "id": 12
+    },
+    {
+      "firstName": "jhbhj",
+      "lastName": "hbjhbjh",
+      "email": "jhbjhb@se",
+      "ticketType": "12.00-15.00",
+      "id": 13
+    }
+  ]
+}
